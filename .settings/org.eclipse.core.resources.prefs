@@ -5,3 +5,4 @@ encoding//src/geo/bj.py=utf-8
 encoding//src/geo/gz.py=utf-8
 encoding//src/getData/imageUrl.py=utf-8
 encoding//src/getData/saveImage.py=utf-8
+encoding//src/mysql/connect.py=utf-8
