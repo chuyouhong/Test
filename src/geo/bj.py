@@ -39,8 +39,8 @@ savefile = 'bj.sql'
 province = '北京'
 city = '北京市'
 
-with open(savefile,'wt') as f:
-    with open(csvfile, 'rt') as c:
+with open(savefile,'wt',encoding='utf-8') as f:
+    with open(csvfile, 'rt',encoding='utf-8') as c:
         for row in c.readlines()[1:]:
             items = row.strip().split(',')
             if (items[0] != '' and items[1] != '' and items[2] != ''):

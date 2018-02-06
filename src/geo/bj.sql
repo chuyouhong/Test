@@ -2586,7 +2586,7 @@
     
     set @hospname = '金顶街社区卫生服务中心';
     set @hospaddr = '北京市石景山区金顶北路22号院1号楼';
-    set @phone = '88778785 ';
+    set @phone = '88778785';
 
     insert into geo_province (id,`name`) select (select max(id)+1 from geo_province), @provname from dual where not exists(select 1 from geo_province where `name` = @provname);
 
@@ -5286,7 +5286,7 @@
     
     set @hospname = '广内社区卫生服务中心';
     set @hospaddr = '北京市西城区校场五条49号';
-    set @phone = '63037725 ';
+    set @phone = '63037725';
 
     insert into geo_province (id,`name`) select (select max(id)+1 from geo_province), @provname from dual where not exists(select 1 from geo_province where `name` = @provname);
 
